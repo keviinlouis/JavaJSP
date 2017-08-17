@@ -12,7 +12,7 @@
 		Name: <input type="text" id="name" name="name" value=""><br>
 		Email: <input type="text" id="email" name="email" value=""><br>
 		Phone: <input type="text" id="phone" name="phone" value=""><br><br>
-		<input type="submit" value="Save">	
+		<input type="submit" value="Save">
 	</form>
 </body>
 </html>
