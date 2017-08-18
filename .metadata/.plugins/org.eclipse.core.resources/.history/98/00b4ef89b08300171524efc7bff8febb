@@ -1,0 +1,12 @@
+package br.com.unicesumar.Iterators;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import br.com.unicesumar.Model.Customer;
+
+public class CustomersIterator {
+	private ArrayList<Customer> listCustomers;
+	
+	public CustomersIterator
+}

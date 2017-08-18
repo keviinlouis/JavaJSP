@@ -1,0 +1,22 @@
+package br.com.unicesumar.Iterators;
+
+import java.util.ArrayList;
+
+import br.com.unicesumar.Model.Customer;
+
+public class CustomersIterator {
+	private ArrayList<Customer> listCustomers;
+	private int actual;
+	private int last;
+	
+	
+	public CustomersIterator(){
+		this.actual = 0;
+		this.last = this.listCustomers.size();
+	}
+	public Customer getNext(){
+		Customer customer = listCustomers.get(actual);
+		this.actual++;
+		return customer;
+	}
+}

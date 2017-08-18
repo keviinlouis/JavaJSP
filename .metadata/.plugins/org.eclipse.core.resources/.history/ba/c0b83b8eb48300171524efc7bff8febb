@@ -1,0 +1,8 @@
+package br.com.unicesumar.Dao;
+import br.com.unicesumar.Model.Customer;
+
+public class CustomerDAO {
+	public void insert(Customer c){
+		 	
+ 	}
+}

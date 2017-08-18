@@ -1,0 +1,15 @@
+package br.com.unicesumar.Services;
+
+import br.com.unicesumar.Dao.CustomerDAO;
+
+public class CustomerService {
+private CustomerDAO dao;
+	
+	public CustomerService(){
+		dao = new CustomerDAO();
+	}
+	
+	public void insertCustomer(int id, String name, String email, String phone){
+		//Chamar a DAO
+	}
+}
